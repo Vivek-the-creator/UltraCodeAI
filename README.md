@@ -45,29 +45,13 @@ It works with both local models (privacy-first) and cloud models (frontier capab
 
 ---
 
-Folder hints (typical layout):
-bash
-  UltraCodeAI/src/main/java/com/
-├─ ui/
-│ ├─ window/ # Tool windows (UltraCodeAI, MCP logs)
-│ ├─ panel/ # Prompt/response panels (if present)
-│ └─ settings/ # Settings pages
-├─ service/
-│ ├─ prompt/ # Execution, memory, threading, strategies
-│ ├─ diagnostics/ # Live analyzer listener (Diagnostics tab)
-│ ├─ rag/ # Indexer & retrieval (optional, pluggable)
-│ └─ mcp/ # MCP execution/logging (optional)
-└─ chatmodel/ # Local & cloud provider services
-
-
-
 ---
 
 ## 📦 Installation
 
 From source:
 bash
-  git clone https://github.com/vishnupriyanpr/UltraCodeAI.git
+  git clone https://github.com/Vivek-the-creator/UltraCodeAI.git
   cd UltraCodeAI
   ./gradlew buildPlugin
 
