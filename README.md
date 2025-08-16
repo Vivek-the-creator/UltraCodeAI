@@ -73,7 +73,7 @@ UltraCodeAI/
 ## 📦 Installation
 From source:
 bash
-  git clone [https://github.com/vishnupriyanpr/UltraCodeAI.git](https://github.com/vishnupriyanpr/UltraCodeAI.git)
+  git clone [https://github.com/Vivek-the-creator/UltraCodeAI.git](https://github.com/Vivek-the-creator/UltraCodeAI.git)
   cd UltraCodeAI
   ./gradlew buildPlugin
 
