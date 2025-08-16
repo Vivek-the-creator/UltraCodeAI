@@ -33,11 +33,9 @@ It works with both local models (privacy-first) and cloud models (frontier capab
 | 🛠 *RAG-Enhanced Insights*  | Built with a Retrieval-Augmented Generation architecture to provide project-aware insights and more accurate answers.                    |
 | 🎨 *Native Look & Feel*     | A beautiful UI built with JetBrains Swing components that respects your IDE theme and feels like a part of IntelliJ.                     |
 
-
----
-
 ## Folder hints (typical layout):
-bash
+
+```
 UltraCodeAI/
 ├── .gradle/                  
 ├── .idea/                    
@@ -71,9 +69,7 @@ UltraCodeAI/
 │               └── ultracodeai/
 ├── build.gradle              # Gradle build script
 └── README.md                 # Project README file
-
-
----
+```
 ## 📦 Installation
 From source:
 bash
@@ -145,20 +141,6 @@ This project is crafted with passion by *MeshMinds*. We are deeply grateful to o
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/vishnupriyanpr">
-        <img src="https://github.com/vishnupriyanpr.png?size=120" width="120px;" alt="Vishnupriyan P R"/>
-        <br />
-        <sub><b>Vishnupriyan P R</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Sanjit-123">
-        <img src="https://github.com/Sanjit-123.png?size=120" width="120px;" alt="Sanjit M"/>
-        <br />
-        <sub><b>Sanjit M</b></sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/Vivek-The-Creator">
         <img src="https://github.com/Vivek-The-Creator.png?size=120" width="120px;" alt="Vivek K K"/>
         <br />
@@ -172,6 +154,21 @@ This project is crafted with passion by *MeshMinds*. We are deeply grateful to o
         <sub><b>Akshaya K</b></sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/vishnupriyanpr">
+        <img src="https://github.com/vishnupriyanpr.png?size=120" width="120px;" alt="Vishnupriyan P R"/>
+        <br />
+        <sub><b>Vishnupriyan P R</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Sanjit-123">
+        <img src="https://github.com/Sanjit-123.png?size=120" width="120px;" alt="Sanjit M"/>
+        <br />
+        <sub><b>Sanjit M</b></sub>
+      </a>
+    </td>
+
   </tr>
 </table>
 
