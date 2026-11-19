@@ -17,17 +17,17 @@ dependencies {
     implementation("dev.langchain4j:langchain4j-web-search-engine-google-custom:$lg4j_version")
     implementation("dev.langchain4j:langchain4j-web-search-engine-tavily:$lg4j_version")
 
-    implementation("org.commonmark:commonmark:0.25.1")
+    implementation("org.commonmark:commonmark:0.32.0")
 
-    compileOnly("org.projectlombok:lombok:1.18.38")
-    annotationProcessor("org.projectlombok:lombok:1.18.38")
+    compileOnly("org.projectlombok:lombok:1.18.48")
+    annotationProcessor("org.projectlombok:lombok:1.18.48")
 
-    testImplementation("org.junit.jupiter:junit-jupiter-api:6.0.0-M2")
-    testImplementation("org.mockito:mockito-core:5.18.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:6.2.0-M1")
+    testImplementation("org.mockito:mockito-core:5.24.0")
     testImplementation("org.mockito:mockito-inline:5.2.0")
-    testImplementation("org.assertj:assertj-core:3.27.4")
+    testImplementation("org.assertj:assertj-core:3.27.7")
 
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.0.0-M2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.2.0-M1")
 }
 
 java {
