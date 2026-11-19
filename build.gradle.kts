@@ -69,47 +69,47 @@ dependencies {
     implementation("dev.langchain4j:langchain4j-chroma:$lg4j_version")
 //    implementation("dev.langchain4j:langchain4j-mcp:$lg4j_version")
     implementation("dev.langchain4j:langchain4j-reactor:$lg4j_version")
-    implementation("software.amazon.awssdk:sts:2.32.21")
-    implementation("software.amazon.awssdk:sso:2.32.21")
-    implementation("software.amazon.awssdk:ssooidc:2.32.21")
+    implementation("software.amazon.awssdk:sts:2.59.1")
+    implementation("software.amazon.awssdk:sso:2.59.1")
+    implementation("software.amazon.awssdk:ssooidc:2.59.1")
 
     // Retrofit dependencies
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
-    implementation("org.xerial:sqlite-jdbc:3.50.3.0")
+    implementation("org.xerial:sqlite-jdbc:3.54.1.0")
 
     // Docker dependencies
-    implementation("com.github.docker-java:docker-java:3.5.3")
-    implementation("com.github.docker-java:docker-java-transport-httpclient5:3.5.3")
+    implementation("com.github.docker-java:docker-java:3.7.1")
+    implementation("com.github.docker-java:docker-java-transport-httpclient5:3.7.1")
 
     // JTokkit dependencies
     implementation("com.knuddels:jtokkit:1.1.0")
-    implementation("org.commonmark:commonmark:0.25.1")
-    implementation("io.netty:netty-all:4.2.4.Final")
+    implementation("org.commonmark:commonmark:0.32.0")
+    implementation("io.netty:netty-all:4.2.20.Final")
 
     // Logging
-    implementation("ch.qos.logback:logback-classic:1.5.18")
+    implementation("ch.qos.logback:logback-classic:1.6.7")
 
     // GitIgnore Reader
-    implementation("nl.basjes.gitignore:gitignore-reader:1.12.0")
+    implementation("nl.basjes.gitignore:gitignore-reader:2.0.0")
 
     // TDG : Add other TDG dependencies
-    implementation("org.junit.jupiter:junit-jupiter-api:6.0.0-M2")
-    implementation("org.junit.jupiter:junit-jupiter-engine:6.0.0-M2")
-    implementation("org.junit.platform:junit-platform-launcher:1.13.4")
+    implementation("org.junit.jupiter:junit-jupiter-api:6.2.0-M1")
+    implementation("org.junit.jupiter:junit-jupiter-engine:6.2.0-M1")
+    implementation("org.junit.platform:junit-platform-launcher:6.1.3")
 
-    compileOnly("org.projectlombok:lombok:1.18.38")
-    annotationProcessor("org.projectlombok:lombok:1.18.38")
+    compileOnly("org.projectlombok:lombok:1.18.48")
+    annotationProcessor("org.projectlombok:lombok:1.18.48")
 
-    testImplementation("org.junit.jupiter:junit-jupiter-api:6.0.0-M2")
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.13.4")
-    testImplementation("org.mockito:mockito-core:5.18.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:6.2.0-M1")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:6.1.3")
+    testImplementation("org.mockito:mockito-core:5.24.0")
     testImplementation("org.mockito:mockito-inline:5.2.0")
-    testImplementation("org.mockito:mockito-junit-jupiter:5.18.0")
-    testImplementation("org.assertj:assertj-core:3.27.4")
+    testImplementation("org.mockito:mockito-junit-jupiter:5.24.0")
+    testImplementation("org.assertj:assertj-core:3.27.7")
     testImplementation("io.github.cdimascio:java-dotenv:5.2.2")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.0.0-M2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.2.0-M1")
 }
 
 // Configure Gradle IntelliJ Plugin
